@@ -62,14 +62,6 @@ Tunable settings are at the top of `microsentry.py`:
 | `PAN_MIN` / `PAN_MAX`, `TILT_MIN` / `TILT_MAX` | Servo travel limits |
 | `ALPHA` | Smoothing factor (lower is smoother but slower) |
 
-## Status and Roadmap
-
-- [x] Target tracking and servo aiming
-- [x] Web dashboard with manual override
-- [ ] Flywheel motor control and ball feed mechanism
-- [ ] Auto-fire when the target is locked
-- [ ] Arm/disarm toggle and authentication
-
 ## Safety
 
-The web server listens on all network interfaces and has no authentication. Run it only on a trusted local network, and never point the laser at anyone's eyes.
+The web server listens on all network interfaces and has no authentication. Run it only on a trusted local network, and handle the laser with care.
